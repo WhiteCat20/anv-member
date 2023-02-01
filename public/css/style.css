@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@500;600;700&family=Poppins:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200;0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;0,6..72,800;1,6..72,200;1,6..72,300;1,6..72,400;1,6..72,500;1,6..72,600;1,6..72,700;1,6..72,800&display=swap');
+
+:root {
+  --button-green: #2a9d8f;
+  --button-greenhover: #1e7e73;
+  /* --test: #efefef; */
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.navbar {
+  font-family: 'Overpass Mono';
+}
+
+.navbar a,
+.dropdown-toggle {
+  color: white;
+}
+
+.navbar .dropdown-item {
+  color: black;
+}
+
+.navbar a:hover,
+a:focus,
+a:active {
+  color: rgb(238, 155, 30);
+}
+
+.navbar .dropdown-item:hover,
+.dropdown-item:focus,
+a:active {
+  color: rgb(238, 155, 30);
+}
+
+.welcome {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../image/BGJKT.jpg');
+  background-position: bottom;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.welcome h2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+main {
+  font-family: 'Poppins', sans-serif;
+}
+
+#payment-table {
+  border-color: black !important;
+}
+
+#payment-table td,
+#payment-table th,
+#payment-table tr {
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#payment-table td {
+  inline-size: 150px;
+  overflow-wrap: break-word;
+}
+
+.text-about {
+  font-size: 1.5rem;
+  padding: 0 10%;
+  font-family: 'Nunito', sans-serif;
+}
+
+.line {
+  width: 150px;
+  height: 4px;
+  background: var(--button-green);
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.keynote_page {
+  background-color: #d9f4d1;
+}
+
+.keynote img {
+  width: 60%;
+  object-fit: contain;
+}
+
+.keynote_img {
+  border-radius: 100%;
+  border-style: solid;
+  border-color: white;
+}
+
+.cfp {
+  max-width: 827px;
+  max-height: 1170px;
+}
+
+.line-countdown {
+  width: 150px;
+  height: 4px;
+  background: whitesmoke;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.contact-us-ul {
+  list-style-type: none;
+}
+
+.contact-us-ul li {
+  list-style: none;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(251, 247, 249, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler .navbar-toggler {
+  border-color: rgb(255, 248, 253);
+}
+
+.login {
+  height: 100vh;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.register {
+  height: 100vh;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.reg-text {
+  top: 16px;
+}
+
+.buttonsimpan {
+  border-radius: 16px;
+  background-color: var(--button-green);
+  color: white;
+  padding: 12px 0 12px 0;
+  border-style: none;
+}
+
+.buttonsimpan:hover {
+  background-color: var(--button-greenhover);
+}
+
+@media only screen and (max-width:992px) {
+  .text-about {
+    font-size: 1rem;
+  }
+
+  .keynote img {
+    width: 50%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width:992px) {
+  .cfp {
+    width: 75% !important;
+    height: auto !important;
+  }
+
+  .timeline {
+    width: 75% !important;
+    height: auto !important;
+  }
+
+  .register {
+    height: 130vh;
+  }
+}
+
+
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+  outline: 1px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+/*Timeline CSS*/
+/* The actual timeline (the vertical ruler) */
+.main-timeline {
+  position: relative;
+}
+
+/* The actual timeline (the vertical ruler) */
+.main-timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  background-color: #939597;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.timeline {
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -13px;
+  background-color: #939597;
+  border: 5px solid #f5df4d;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  padding: 0px 40px 20px 0px;
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  padding: 0px 0px 20px 40px;
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  position: absolute;
+  top: 18px;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  position: absolute;
+  top: 18px;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -12px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 992px) {
+
+  /* Place the timelime to the left */
+  .main-timeline::after {
+    left: 31px;
+  }
+
+  /* Full-width containers */
+  .timeline {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+    font-size: 80%;
+  }
+
+  .timeline h3 {
+    font-size: 90%;
+  }
+
+  /* Make sure that all arrows are pointing leftwards */
+  .timeline::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after,
+  .right::after {
+    left: 18px;
+  }
+
+  .left::before {
+    right: auto;
+  }
+
+  /* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+
+}
+
+/* Owl CSS */
+.owl-prev {
+  left: -30px;
+}
+
+.owl-next {
+  right: -30px;
+}
+
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 90px;
+}
+
+.owl-prev span,
+.owl-next span {
+  font-size: 80px;
+  color: black;
+}
+
+.item img {
+  height: 280px;
+}
+
+/* textarea:hover, input:hover, textarea:active, input:active, textarea:focus, 
+input:focus, select:active,  select:focus{
+
+} */
