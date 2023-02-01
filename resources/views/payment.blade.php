@@ -46,4 +46,31 @@
             conference.</p>
     </section>
     <div class="container" style="height: 1.5px; background-color: rgb(182, 179, 179)"></div>
+    <section>
+        <h3 class="text-center mt-3">PAYMENT</h3>
+        <div style="background-color: #403c3c; margin: 0;">
+            <p style="color: #fff;  padding: 10px 30px">Payment Summary</p>
+        </div>
+        <table id="payment-summary" class="table table-bordered">
+            <tbody>
+                <tr>
+                    <th colspan="2">Categories</th>
+                    <td colspan="5">Regular Student</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <th colspan="2">Additional Paper</th>
+                    <td colspan="5">1 ($60 (USD) Each)</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Amount Must Be Paid</th>
+                    <td colspan="5">$160.00</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="d-flex justify-content-center">
+            <button style="background-color: #98b43c">PAY</button>
+        </div>
+    </section>
 @endsection

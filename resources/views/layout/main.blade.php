@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ANV 2023</title>
+    <title>ANV 2023 Member Area</title>
     <!-- let's include cdn files -->
     <!--1. Owl Carousel Min.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
@@ -40,7 +40,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    @vite([])
+    {{-- @vite([]) --}}
     @yield('css')
 </head>
 
@@ -92,9 +92,6 @@
             </div>
         </main>
     </div>
-
-
-
     {{-- <script>
         $(function() {
             $('.sidebar-item').on('mouseover', function() {
@@ -105,8 +102,6 @@
             })
         })
     </script> --}}
-
-
 </body>
 
 </html>
