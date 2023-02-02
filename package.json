@@ -1,6 +1,8 @@
 {
     "private": true,
     "scripts": {
+        "start" : "php artisan serve",
+        "sass" : "cd public && sass --watch scss:css",
         "dev": "vite",
         "build": "vite build"
     },

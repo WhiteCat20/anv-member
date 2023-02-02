@@ -47,7 +47,8 @@
                 <div class=" d-flex align-items-center justify-content-center text-center ">
                     <div class="row ">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 ">
-                            <img width="255px " height="84px " src="/assets/image/logolab2.png" class="mt-3 mb-3 " />
+                            <img width="255px " height="84px " src="{{ asset('image/logolab2.png') }}"
+                                class="mt-3 mb-3" />
                         </div>
                     </div>
                 </div>
@@ -56,10 +57,10 @@
                 <div class=" d-flex align-items-center justify-content-center text-center ">
                     <div class="row ">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 ">
-                            <img width="132px " height="84px " src="../assets/image/its.png " class="mt-3 mb-3 " />
+                            <img width="132px " height="84px " src="{{ asset('image/its.png') }}" class="mt-3 mb-3 " />
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 ">
-                            <img width="116px " height="100px " src="\assets\image\tf.png " class="mt-3 mb-3 " />
+                            <img width="116px " height="100px " src="{{ asset('image/tf.png ') }}" class="mt-3 mb-3 " />
                         </div>
                     </div>
                     <div></div>

@@ -15,30 +15,6 @@ body {
   overflow-x: hidden;
 }
 
-.navbar {
-  font-family: 'Overpass Mono';
-}
-
-.navbar a,
-.dropdown-toggle {
-  color: white;
-}
-
-.navbar .dropdown-item {
-  color: black;
-}
-
-.navbar a:hover,
-a:focus,
-a:active {
-  color: rgb(238, 155, 30);
-}
-
-.navbar .dropdown-item:hover,
-.dropdown-item:focus,
-a:active {
-  color: rgb(238, 155, 30);
-}
 
 .welcome {
   width: 100vw;
@@ -79,7 +55,7 @@ main {
 
 #payment-summary {
   border-color: black !important;
-  border: 1px black solid;
+  border: 1px black solid !important;
 }
 
 .text-about {

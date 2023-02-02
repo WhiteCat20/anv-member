@@ -1,0 +1,41 @@
+.bg-green-anv {
+  background-color: #1C2331;
+}
+
+.brand-link {
+  color: #fff;
+  border-bottom: none;
+}
+
+.nav-header {
+  color: #fff;
+  font-weight: 700;
+}
+
+.nav-item {
+  color: #fff;
+}
+
+.sidebar-item{
+  font-size: 20px;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.active {
+  background-color: #fff;
+  border-radius: 0.25rem;
+}
+
+.active .nav-link {
+  color: #3CB371 !important;
+}
+
+/* ANV MEMBER AREA ONLY */
+.nav-link-nav {
+  font-family: 'Overpass Mono', serof !important;
+}
+
+/*# sourceMappingURL=custom-scss.css.map */
